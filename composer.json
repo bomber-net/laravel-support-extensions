@@ -1,0 +1,23 @@
+{
+	"name":"bomber-net/laravel-support-extensions",
+	"description":"Extensions for standard Laravel support libraries",
+	"type":"library",
+	"license":"MIT",
+	"autoload":{
+		"psr-4":{
+			"BomberNet\\LaravelSupportExtensions\\":"src/"
+		}
+	},
+	"authors":[
+		{
+			"name":"bomber-net",
+			"email":"an-rtk@mail.ru"
+		}
+	],
+	"minimum-stability":"dev",
+	"require":{
+		"php": ">=8.1",
+		"laravel/framework": "10.x-dev",
+		"bomber-net/laravel-helpers": "dev-master"
+	}
+}
